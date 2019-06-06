@@ -7,10 +7,23 @@
 </ion-header>
 
 <ion-content>
-  Coming soon...
+  <ion-item>
+    <ion-label position="fixed" text-wrap>Amount</ion-label>
+    <ion-input [(ngModel)]="Amount"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="fixed" text-wrap>Rate of Interest</ion-label>
+    <ion-input [(ngModel)]="Rate"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="fixed" text-wrap>Total Years</ion-label>
+    <ion-input [(ngModel)]="Period"></ion-input>
+  </ion-item>
+  <ion-button (click)="CalculateSIPReturn()">Calculate</ion-button>
+  <ion-input [(ngModel)]="Total"></ion-input>
 </ion-content>
 <ion-footer>
   <ion-toolbar>
-    <ion-title>&copy;jitusurve@gmail.com</ion-title>
+    <ion-title>Developer: jitusurve@gmail.com</ion-title>
   </ion-toolbar>
 </ion-footer>
