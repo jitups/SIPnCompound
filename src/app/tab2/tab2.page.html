@@ -8,15 +8,15 @@
 
 <ion-content>
   <ion-item>
-    <ion-label position="fixed" text-wrap>Amount</ion-label>
+    <ion-label position="fixed" text-wrap>Monthly Investment</ion-label>
     <ion-input [(ngModel)]="Amount"></ion-input>
   </ion-item>
   <ion-item>
-    <ion-label position="fixed" text-wrap>Rate of Interest</ion-label>
+    <ion-label position="fixed" text-wrap>Expected Rate of Interest</ion-label>
     <ion-input [(ngModel)]="Rate"></ion-input>
   </ion-item>
   <ion-item>
-    <ion-label position="fixed" text-wrap>Total Years</ion-label>
+    <ion-label position="fixed" text-wrap>Total Months</ion-label>
     <ion-input [(ngModel)]="Period"></ion-input>
   </ion-item>
   <ion-button (click)="CalculateSIPReturn()">Calculate</ion-button>
