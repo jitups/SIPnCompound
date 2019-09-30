@@ -20,3 +20,15 @@ Variable Name GRADLE_HOME Variable Value C:\Gradle\gradle-4.0.1
 Then choose PATH variable from system variable list
 append the gradle path to variable value like this C:\Gradle\gradle-4.0.1\bin
 
+Icon size"
+<!--
+            ldpi    : 36x36 px
+            mdpi    : 48x48 px
+            hdpi    : 72x72 px
+            xhdpi   : 96x96 px
+            xxhdpi  : 144x144 px
+            xxxhdpi : 192x192 px
+        -->
+
+While installing there woukd be "Play Protect" warning.  Choose "Install anyway"
+
